@@ -113,6 +113,10 @@ let g:lexical#dictionary = ['~/.vim/spell/en.utf-8.add',]
 You can specify a single path for spellfile in the list.
 
 
+### Thesaurus and Spellchecks Downloads
+- [German thesaurus](https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip)
+  - Install instructions: `cd /tmp && wget https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip -O mthesaur.zip && unzip mthesaur.zip && mv openthesaurus.txt ~/.vim/thesaurus/`
+
 ## Commands
 
 Vim offers many standard key mappings for spell-checking and completion.
